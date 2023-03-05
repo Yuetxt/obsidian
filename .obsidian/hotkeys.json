@@ -1,0 +1,17 @@
+{
+  "obsidian-focus-mode:toggle-focus-mode": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Z"
+    },
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ]
+}

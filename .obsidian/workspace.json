@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "c3b1aee0c47fa775",
+    "type": "split",
+    "children": [
+      {
+        "id": "5311a0cc9b83dadb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb708de05c48c3a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE 320.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "462b71cebc6fdd72",
+    "type": "split",
+    "children": [
+      {
+        "id": "da3de7d3e1bb3df1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85d2b47c952413a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "38fe65d26ef9a6aa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "be9f75c0b9625138",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9367b7352a8eafb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "88a7371c7d7a5238",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "005f631c2650bb09",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CSE 320.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f2e1b3e872951e9b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CSE 320.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d0cc94575a71e28",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a2107ba87107d786",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CSE 320.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
+    }
+  },
+  "active": "85d2b47c952413a6",
+  "lastOpenFiles": [
+    "GEO 103.md",
+    "Pasted image 20230303095722.png",
+    "Pasted image 20230303095219.png",
+    "Pasted image 20230303095140.png",
+    "Pasted image 20230303094509.png",
+    "Pasted image 20230303094314.png",
+    "Pasted image 20230303094206.png",
+    "Pasted image 20230303094125.png",
+    "Pasted image 20230303093915.png",
+    "Pasted image 20230303093857.png",
+    "Pasted image 20230303093714.png",
+    "daily/2023-03-03.md",
+    "daily/2023-03-02.md",
+    "Templates/DailyTemp.md",
+    "CSE 320.md",
+    "daily/2023-03-01.md",
+    "<%+ tp.date.now(\"YYYY-MM-DD\", 1) %>.md",
+    "Untitled.md",
+    "daily",
+    "2023-03-01.md",
+    "imgs/Untitled.canvas",
+    "<% tp.date.now(\"YYYYMMDD ddd\", 1, tp.file.title, \"YYYYMMDD ddd\") %>.md",
+    "Templates",
+    "imgs",
+    "2023-02-23.md",
+    "Note_Images"
+  ]
+}
