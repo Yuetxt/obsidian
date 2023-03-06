@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2023-03-03.md",
-                "mode": "preview",
+                "file": "GEO 103.md",
+                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2023-03-03.md",
+                "file": "GEO 103.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2023-03-03.md",
+                "file": "GEO 103.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2023-03-03.md"
+                "file": "GEO 103.md"
               }
             }
           }
@@ -151,22 +152,22 @@
   },
   "active": "fb708de05c48c3a9",
   "lastOpenFiles": [
+    "CSE 320.md",
+    "README.md",
+    "GEO 103.md",
     "daily/2023-03-02.md",
     "daily/2023-03-03.md",
-    "GEO 103.md",
-    "CSE 320.md",
-    "Pasted image 20230306094746.png",
-    "Pasted image 20230306094653.png",
-    "Pasted image 20230306094023.png",
-    "Pasted image 20230306093539.png",
-    "Pasted image 20230306093358.png",
-    "Pasted image 20230306093047.png",
-    "Pasted image 20230306092343.png",
-    "README.md",
-    "imgs/Pasted image 20230303091815.png",
-    "imgs/Pasted image 20230303095722.png",
-    "imgs/Pasted image 20230303095219.png",
     "Templates/DailyTemp.md",
+    "imgs/1674498402.png",
+    "imgs/address.png",
+    "imgs/addrinfo.png",
+    "imgs/address_translation.png",
+    "imgs/Pasted image 20230306092343.png",
+    "imgs/Pasted image 20230306094746.png",
+    "imgs/Pasted image 20230306094653.png",
+    "imgs/Pasted image 20230306094023.png",
+    "imgs/Pasted image 20230306093539.png",
+    "imgs/Pasted image 20230306093358.png",
     "daily/2023-03-01.md",
     "<%+ tp.date.now(\"YYYY-MM-DD\", 1) %>.md",
     "Untitled.md",
