@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "daily/2023-03-03.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "daily/2023-03-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "daily/2023-03-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "daily/2023-03-03.md"
               }
             }
           }
@@ -145,27 +145,27 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "fb708de05c48c3a9",
   "lastOpenFiles": [
-    "imgs/Pasted image 20230303091815.png",
-    "CSE 320.md",
+    "daily/2023-03-02.md",
+    "daily/2023-03-03.md",
     "GEO 103.md",
+    "CSE 320.md",
+    "Pasted image 20230306094746.png",
+    "Pasted image 20230306094653.png",
+    "Pasted image 20230306094023.png",
+    "Pasted image 20230306093539.png",
+    "Pasted image 20230306093358.png",
+    "Pasted image 20230306093047.png",
+    "Pasted image 20230306092343.png",
+    "README.md",
+    "imgs/Pasted image 20230303091815.png",
     "imgs/Pasted image 20230303095722.png",
     "imgs/Pasted image 20230303095219.png",
-    "imgs/Pasted image 20230303095140.png",
-    "imgs/Pasted image 20230303094509.png",
-    "imgs/Pasted image 20230303094314.png",
-    "imgs/Pasted image 20230303094206.png",
-    "imgs/Pasted image 20230303094125.png",
-    "imgs/Pasted image 20230303093915.png",
-    "imgs/Pasted image 20230303093857.png",
-    "imgs/Pasted image 20230303093714.png",
-    "daily/2023-03-03.md",
-    "daily/2023-03-02.md",
     "Templates/DailyTemp.md",
     "daily/2023-03-01.md",
     "<%+ tp.date.now(\"YYYY-MM-DD\", 1) %>.md",
