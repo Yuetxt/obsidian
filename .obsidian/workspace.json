@@ -13,9 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GEO 103.md",
+                "file": "README.md",
                 "mode": "source",
-                "backlinks": false,
                 "source": false
               }
             }
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GEO 103.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GEO 103.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GEO 103.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,18 +145,21 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
-      "templater-obsidian:Templater": false
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
   "active": "fb708de05c48c3a9",
   "lastOpenFiles": [
-    "CSE 320.md",
-    "README.md",
     "GEO 103.md",
+    "CSE 320.md",
     "daily/2023-03-02.md",
     "daily/2023-03-03.md",
+    "daily/2023-03-06.md",
+    "<%+ tp.date.now(\"YYYY-MM-DD\", -1)%>.md",
+    "<%+ tp.date.now(\"YYYY-MM-DD\", 1) %>.md",
     "Templates/DailyTemp.md",
+    "imgs/Pasted image 20230306100642.png",
+    "README.md",
     "imgs/1674498402.png",
     "imgs/address.png",
     "imgs/addrinfo.png",
@@ -167,9 +169,7 @@
     "imgs/Pasted image 20230306094653.png",
     "imgs/Pasted image 20230306094023.png",
     "imgs/Pasted image 20230306093539.png",
-    "imgs/Pasted image 20230306093358.png",
     "daily/2023-03-01.md",
-    "<%+ tp.date.now(\"YYYY-MM-DD\", 1) %>.md",
     "Untitled.md",
     "daily",
     "2023-03-01.md",
