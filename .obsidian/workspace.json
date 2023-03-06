@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "GEO 103.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "GEO 103.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "GEO 103.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "GEO 103.md"
               }
             }
           }
@@ -150,8 +150,9 @@
   },
   "active": "fb708de05c48c3a9",
   "lastOpenFiles": [
-    "GEO 103.md",
     "CSE 320.md",
+    "GEO 103.md",
+    "README.md",
     "daily/2023-03-02.md",
     "daily/2023-03-03.md",
     "daily/2023-03-06.md",
@@ -159,7 +160,6 @@
     "<%+ tp.date.now(\"YYYY-MM-DD\", 1) %>.md",
     "Templates/DailyTemp.md",
     "imgs/Pasted image 20230306100642.png",
-    "README.md",
     "imgs/1674498402.png",
     "imgs/address.png",
     "imgs/addrinfo.png",
