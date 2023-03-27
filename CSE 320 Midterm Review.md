@@ -1,8 +1,83 @@
 ## **C Programming**
-
 ### Variables
+```c
+int *(*f[3])();
+// an array of pointers to functions that return pointers to int
+
+if (n = 0) { ... } // assignment returns value assigned 
+
+```
+- Global (static) variables initialized to **0**
+- Local variables => **could be anything**
+
+```c
+int var_9 = 1; // allowed
+int 9_var = 2; // not allowed 
+int _ = 3; // allowed
+```
+- letters, digits and underscore allowed but var name has to begin with letter/underscore, NOT **NUMBER**
+
+```c
+sizeof(int);
+sizeof(int*);
+sizeof(int**);
+```
+- assuming size of int is 4 bytes and size of pointer is also 4 bytes, all of them are 4 bytes 
+- **size of all pointer types is the same**
+- pointer => char / pointer => int / pointer => pointer => int
+	- size remains the same for all of them 
+	- pointer to user defined data type (a struct) would also have the same size as any other pointer.
+
+```c
+   int *pInt;
+   int **ppInt1;
+   int **ppInt2;
+
+   pInt = (int*)malloc(sizeof(int));
+   ppInt1 = (int**)malloc(10*sizeof(int*));
+   ppInt2 = (int**)malloc(10*sizeof(int*));
+   // assume we free
+```
+- runs smoothly
+- data allocations match up based on data types
+
+```c
+void *pVoid;
+pVoid = (void*)0;
+```
+- `(void *)0` => NULL pointer 
+
+
+```c
+int main()
+{
+	void demo(); // load the function so that we can call it
+	void (*fun)(); // define 'fun' pointer of type void (*)() which points to functions w/ no args and a void return type
+	fun = demo; // assign address of demo() function to fun 
+	(*fun)(); // call it by dereferencing
+	fun(); // call it using function ptr
+	return 0;
+}
+void demo()
+{
+	printf("GeeksQuiz ");
+}
+```
+
+### Booleans
+- **False** if **0**
+- **True** if anything else even negative
+
 
 #### C Storage Class Examples
+**Types of Storage Classes:**
+- Auto(matic)
+	- var that is declared inside a function without the static attribute -- created and destroyed when block is exited
+- Static
+	- global variables (vars defined outside any function)
+	- global lifetime
+	- may not have **global scope** (if not explictly declared static)
+
 ```c
 int count;
 
@@ -80,16 +155,54 @@ static int y;
 ### GCC & Build Automation
 - compilation cycle:
 	- `.c` => assembly `.s` => object file `.o` => executable `.exe`
+	- ![[Pasted image 20230326102235.png]]
+		- cpp (C preprocessor) => preprocessed files (.i) => compiler (cc1) => assembly (translated by assembler)
 - compiler creates object file for each source file (`.s` assembly file) and then links them together for the executable
+
+
+
 
 > [!faq]- Where does linking occur?
 > After creation of object files for each source file
 
 
-
-
 ## **Memory Allocation**
-![[elf.png]]
+- Two types of allocators
+	- Explicit allocator: app allocates & frees space
+		- malloc/free in C
+	- Implicit allocator: app allocates but does not free space
+		- garbage collection in Java, ML, Lisp
+
+* Constraints of Allocators:
+    * Applications have few constraints
+        * Can cause arbitrary sequence of `malloc` and `free` requests
+        * Free request must be to a `malloc` block
+    * Allocators have many constraints:
+        1. Can't assume allocation patterns
+        2. Must respond immediately to `malloc` (can't defer allocation)
+        3. Can't relocate allocated memory
+        4. Can manipulate and modify only free memory
+        5. Can't move the allocated blocks once they are malloc'd
+            1. compaction is not allowed
+        6. Must allign blocks so they satisfy all alignment requirements
+
+- Throughput
+	- 5000 malloc and 5000 free in 10 seconds
+	- throughput is 1000 operations/sec
+
+
+
+```c
+void *malloc(size_t size)
+```
+- Success:
+	- ptr to memory block at least **size** bytes aligned to 8 byte (x86) or 16 byte (x86-64) boundary
+	- if size == 0, return NULL
+- Unsuccessful:
+	- returns NULL w/ sets errno
+
+
+
 ### Heap
 * grows towards higher addresses
 * stack is at the top
@@ -105,6 +218,34 @@ static int y;
 
 
 ## **Linking**
+![[elf.png]]
+>[!faq]- In what section of an ELF binary are initialized variables located? (a) .symtab (b) .data (c) .bss (d) .text
+>(b) **.data**
+
+![[Pasted image 20230326112033.png]]
+> [!faq]- Where is x stored?
+> .data
+- limited in scope to the function it is defined in
+
+![[Pasted image 20230326112151.png]]
+>[!faq]- How compiler allocate space/definition for these two x's?
+>Creates space in .data for each defin. of x. 
+>Creates local symbols in symbol table w/ unique names (e.g., x.1 and x.2)
+
+Linker Rules:
+1. Multiple strong symbols => Linker error
+2. Strong and multiple weak symbols => choose strong symbol
+	1. references to weak symbols => resolve to strong symbol
+3. Multiple weak symbols => pick randomly
+	1. override w/ ``gcc -fno-common`` (multiple weak symbols => linker erro)
+
+
+Notes:
+- local variables do not have any strength (strong/weak)
+- the object file (main.o) is a symbol as well and is strong and global
+- Global symbols can be referenced by other modules (files), but local symbols can only be referenced by the module that defines them.
+
+
 ```c
 /* main.c */
 int i = 0;
@@ -124,9 +265,6 @@ void foo() {
 - fails to link because i takes up the same symbol space - symbol resolution fails because multiple strong symbols are not allowed
 	- question: where does the symbol table get stored?
 	- question: what is the syntax for linking?
-
-
-
 
 
 ```c

@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 320 Midterm Review.md",
+                "file": "CSE 320 HW Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4d8d2deef1a15ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE 320.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE 320 Midterm Review.md",
+                "file": "CSE 320 HW Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE 320 Midterm Review.md",
+                "file": "CSE 320 HW Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE 320 Midterm Review.md"
+                "file": "CSE 320 HW Notes.md"
               }
             }
           }
@@ -163,20 +175,20 @@
   "active": "829b30bd6f7466e7",
   "lastOpenFiles": [
     "CSE 320.md",
+    "CSE 320 HW Notes.md",
+    "CSE 320 Midterm Review.md",
     "GEO 103.md",
+    "imgs/1674498402.png",
+    "imgs/Pasted image 20230326112151.png",
+    "imgs/Pasted image 20230326112033.png",
+    "imgs/Pasted image 20230326102235.png",
+    "README.md",
     "imgs/Pasted image 20230325125149.png",
     "imgs/Pasted image 20230325124143.png",
     "imgs/Pasted image 20230325124126.png",
     "imgs/Pasted image 20230325123308.png",
     "imgs/Pasted image 20230325111738.png",
     "imgs/Pasted image 20230325111602.png",
-    "imgs/Pasted image 20230325111135.png",
-    "imgs/Pasted image 20230325110724.png",
-    "imgs/Pasted image 20230325110650.png",
-    "imgs/Pasted image 20230325110609.png",
-    "README.md",
-    "CSE 320 Midterm Review.md",
-    "Untitled.md",
     "imgs copy/Untitled.canvas",
     "README copy.md",
     "imgs copy",
